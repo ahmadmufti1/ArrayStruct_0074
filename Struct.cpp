@@ -7,3 +7,10 @@ struct orang{
     string alamat;
     int umur;
 };
+
+int main()
+{
+    //deklarasi obyek dengan struct orang
+    orang mhs;
+    
+}
