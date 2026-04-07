@@ -25,4 +25,17 @@ int main(){
     
     cout <<endl;
 
+    //isi data dengan perulangan for
+    for (int i = 0 ; i<=4; i++)
+    {
+        cout << "Data Index ke - " <<i <<":";
+        cin >> datamu[i];
+    }
+
+    cout<<endl;
+    // menampilkan data denagn perulangan for
+    for (int i =0; i<=4; i++)
+    {
+        cout << "data ke - "<< i+1 <<":"<<datamu[i]<<endl;
+    }
 }
